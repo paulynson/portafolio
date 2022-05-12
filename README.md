@@ -1,4 +1,4 @@
-## Diseño de mi portafolio
+## Mi currículum de diseño de cartera
 
 # Getting Started with Create React App
 
