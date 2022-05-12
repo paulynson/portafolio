@@ -1,14 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import Home from './components/Home'
+import Navbar from './layouts/Navbar'
+import CoverLetter from './components/CoverLetter'
+import Sidebar from './layouts/Sidebar';
+import Footer from './layouts/Footer';
 
 function App() {
   return (
-    <div className="App">
-     
-      
-      <h1 className="text-3xl font-bold underline text-green-700">
-      Portfolio
-    </h1>
+    <div className="App font-poppins">
+      <Navbar />
+      <Sidebar />
+        <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="coverletter" element={<CoverLetter />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
