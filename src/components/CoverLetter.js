@@ -3,7 +3,7 @@ import React from 'react';
 function CoverLetter() {
   return (
     <div>
-      <main class="flex-1 ml-64">
+      <main class="flex-1 ml-64 mt-12">
               <div className="flex ">
               <div class="bg-white p-10 text-left leading-8 w-auto ">
                       <p className='my-6'>Dear Hiring Manager,</p>
