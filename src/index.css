@@ -89,3 +89,11 @@ code {
       width: 60px;
   }
 }
+
+.link{
+  color: white;
+}
+
+.active{
+  color: #e11d48 ;
+}

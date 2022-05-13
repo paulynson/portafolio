@@ -6,6 +6,7 @@ import Navbar from './layouts/Navbar'
 import CoverLetter from './components/CoverLetter'
 import Sidebar from './layouts/Sidebar';
 import Footer from './layouts/Footer';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="coverletter" element={<CoverLetter />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
