@@ -7,7 +7,7 @@ function Navbar() {
       <nav class="top-0 lg:ml-80 bg-slate-800">
         <div className="flex gap-6 justify-center py-4">
           <NavLink to="/" className={({isActive}) => (isActive ? 'link active': 'link')}>
-            Home
+            Curriculum Vitae
           </NavLink>
           <NavLink
             to="/coverletter"
