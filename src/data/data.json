@@ -35,7 +35,7 @@
       "id": 3,
       "years": "2004 –2007",
       "degree": "Secondary School",
-      "department": "Computer Science",
+      "department": "",
       "school": "Stella Maris College"
     }
     
@@ -44,11 +44,13 @@
    
     {
       "id": 1,
+      "position": "Frontend Developer (React Js) - HNG Internship",
       "years": "July 2021 - October 2021",
       "description": "Developed a web application using (React Js). Work with a team to develop a web application which was deployed on the internet. Designed components of a dashboard with a team."
     },
     {
         "id": 2,
+        "position": "UI/UX Designer - HNG Internship",
         "years": "June 2020 - August 2020",
         "description": "Designed Mobile and Web App Application component of a dashboard with a team. Work with a team to design website application which was later deployed on the internet. Collaborated with frontend and backend developers to designed web application and drafted out the flowchart for a web application which was later developed."
       }
@@ -57,43 +59,35 @@
   "tools": [
     {
       "id": 1,
-      "title": "HTML5",
-      "per": 95
+      "title": "HTML5"
     },
     {
         "id": 2,
-        "title": "CSS3",
-        "per": 80
+        "title": "CSS3"
     },
     {
         "id": 3,
-        "title": "SASS",
-        "per": 75
+        "title": "SASS"
     },
     {
         "id": 4,
-        "title": "Bootstrap",
-        "per": 75
+        "title": "Bootstrap"
     },
     {
         "id": 5,
-        "title": "Tailwind CSS",
-        "per": 75
+        "title": "Tailwind CSS"
     },
     {
         "id": 6,
-        "title": "JavaScript",
-        "per": 70
+        "title": "JavaScript"
     },
     {
         "id": 7,
-        "title": "React Js",
-        "per": 75
+        "title": "React Js"
     },
     {
         "id": 8,
-        "title": "Redux",
-        "per": 40
+        "title": "Redux"
     }
     
   ],

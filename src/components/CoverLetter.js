@@ -8,7 +8,7 @@ function CoverLetter() {
               <div class="bg-white p-10 text-left leading-8 w-auto ">
                       <p className='my-6'>Dear Hiring Manager,</p>
                       
-          <p className='my-6 underline font-bold'>Cover Letter</p>
+          <p className='my-6 underline font-bold text-rose-600'>Cover Letter</p>
           <p>
             This letter is to indicate my interest in the job posted on your
             website for an experienced, detailed-oriented, front-end web
