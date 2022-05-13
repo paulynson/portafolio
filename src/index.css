@@ -10,11 +10,82 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* max-width: 1440px; */
   box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.html-bar{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 90px;
+  }
+}
+
+.css-bar{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 80px;
+  }
+}
+
+.sass-bar{
+  animation: sass-fill 2s forwards;
+}
+@keyframes sass-fill{
+  100%{
+      width: 75px;
+  }
+}
+
+.bootstrap-bar{
+  animation: bootstrap-fill 2s forwards;
+}
+@keyframes bootstrap-fill{
+  100%{
+      width: 75px;
+  }
+}
+
+.tailwind-bar{
+  animation: tailwind-fill 2s forwards;
+}
+@keyframes tailwind-fill{
+  100%{
+      width: 75px;
+  }
+}
+
+.javascript-bar{
+  animation: javascript-fill 2s forwards;
+}
+@keyframes javascript-fill{
+  100%{
+      width: 75px;
+  }
+}
+
+.react-bar{
+  animation: react-fill 2s forwards;
+}
+@keyframes react-fill{
+  100%{
+      width: 70px;
+  }
+}
+
+.redux-bar{
+  animation: redux-fill 2s forwards;
+}
+@keyframes redux-fill{
+  100%{
+      width: 60px;
+  }
 }

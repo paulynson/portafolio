@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
       <div>
-          <main class="flex-1 ml-64">
+          <main class="flex-1 lg:ml-80">
               <h1>Home</h1>
             <div class="h-96 bg-amber-400 p-10">
                 <h1 class="text-4xl">Top Content</h1>
