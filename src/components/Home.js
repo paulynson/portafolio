@@ -25,7 +25,7 @@ function Home() {
    
   return (
     <div>
-      <main class="flex-1 lg:ml-80">
+      <main class="flex-1 lg:ml-80 xl:ml-80">
        <Contact />
         <Work />
         <Internships />

@@ -11,15 +11,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  max-width: 1440px;
+  max-width: auto;
   scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
+/* HTML Animation bar */
 .html-bar{
   animation: html-fill 2s forwards;
 }
@@ -28,6 +24,8 @@ code {
       width: 90px;
   }
 }
+
+/* CSS Animation bar */
 
 .css-bar{
   animation: css-fill 2s forwards;
@@ -38,6 +36,8 @@ code {
   }
 }
 
+/* SASS Animation bar */
+
 .sass-bar{
   animation: sass-fill 2s forwards;
 }
@@ -46,6 +46,8 @@ code {
       width: 75px;
   }
 }
+
+/* BOOTSTRAP Animation bar */
 
 .bootstrap-bar{
   animation: bootstrap-fill 2s forwards;
@@ -56,6 +58,8 @@ code {
   }
 }
 
+/* TAILWIND Animation bar */
+
 .tailwind-bar{
   animation: tailwind-fill 2s forwards;
 }
@@ -65,6 +69,8 @@ code {
   }
 }
 
+/* JAVASCRIPT Animation bar */
+
 .javascript-bar{
   animation: javascript-fill 2s forwards;
 }
@@ -73,6 +79,8 @@ code {
       width: 75px;
   }
 }
+
+/* REACT Animation bar */
 
 .react-bar{
   animation: react-fill 2s forwards;
@@ -91,6 +99,8 @@ code {
       width: 60px;
   }
 }
+
+/* navbar Links */
 
 .link{
   color: #ffffff;
@@ -144,7 +154,7 @@ code {
           }
       }
 
-      /* Reading */
+ /* Reading */
       .book {
         
         animation: move 0.5s;
@@ -177,6 +187,8 @@ code {
     }
 }
 
+/* Splash Animation */
+
 .splash{
   animation: pulse 1s linear forwards infinite;
 }
@@ -187,5 +199,22 @@ code {
   }
   100% {
     opacity:1;
+  }
+}
+
+/* Capturing bigger Screens */
+
+@media (min-width: 2560px) {
+  p, li, span, Link, a, small{
+    font-size: 1.5rem;
+    line-height: 4.5rem;
+    margin: 10px 0;
+  }
+  h1, h2{
+    font-size: 2.5rem !important;
+    line-height: 4.5rem;
+  }
+  h3, h4, h5, h6{
+    font-size: 1.8rem;
   }
 }

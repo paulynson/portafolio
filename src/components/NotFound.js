@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function NotFound() {
   return (
     <div>
-       <main class="flex-1 lg:ml-80">
+       <main class="flex-1 lg:ml-80 xl:ml-80">
               <div className="flex h-screen items-center justify-center">
               <div class="bg-white p-10 leading-8 w-auto text-center items-center ">
                       <div className="my-16">
