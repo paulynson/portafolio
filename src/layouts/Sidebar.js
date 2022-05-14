@@ -1,10 +1,11 @@
 import React from 'react';
+// import profile from '../assets/image/profile.jpg';
 import Skills from '../resource/Skills';
 
 function Sidebar() {
   return (
     <section>
-      <aside class="w-full lg:w-80 lg:fixed left-0 top-0 lg:h-screen bg-slate-700 py-4 px-10">
+      <aside class="w-full lg:w-80 lg:fixed left-0 top-0 h-[100%] bg-slate-800 py-4 px-10 lg:m-0">
         <section className="my-6 lg:text-left text-center items-center justify-center flex">
           <img src="https://i.ibb.co/vQP3WdN/profile.jpg" alt="profile" className="h-48" />
         </section>

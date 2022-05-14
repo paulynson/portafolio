@@ -3,15 +3,18 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <section className="">
-      <nav class="top-0 lg:ml-80 bg-slate-800">
-        <div className="flex gap-6 justify-center py-4">
-          <NavLink to="/" className={({isActive}) => (isActive ? 'link active': 'link')}>
+    <section>
+      <nav class="flex-1 lg:ml-80 md:m-0 bg-slate-800  sm:m-0  ">
+        <div className="flex gap-5 justify-center py-4">
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? 'link active font-bold' : 'link')}
+          >
             Curriculum Vitae
           </NavLink>
           <NavLink
             to="/coverletter"
-            className={({isActive}) => (isActive ? 'link active': 'link')}
+            className={({ isActive }) => (isActive ? 'link active font-bold' : 'link')}
           >
             Cover Letter
           </NavLink>

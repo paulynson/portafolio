@@ -6,9 +6,9 @@ function CoverLetter() {
       <main class="flex-1 lg:ml-80">
               <div className="flex ">
               <div class="bg-white p-10 text-left leading-8 w-auto ">
-                      <p className='my-6'>Dear Hiring Manager,</p>
+                      <p className='my-5'>Dear Hiring Manager,</p>
                       
-          <p className='my-6 underline font-bold text-rose-600'>Cover Letter</p>
+          <p className='my-6 underline font-bold text-rose-600'>Application as a Frontend Developer - React JS</p>
           <p>
             This letter is to indicate my interest in the job posted on your
             website for an experienced, detailed-oriented, front-end web
