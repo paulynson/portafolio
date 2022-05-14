@@ -32,7 +32,7 @@ function Home() {
         <Education />
               <Hobbies />
               <div className="pushtop flex items-center justify-center p-2">
-          <a href="#"><FontAwesomeIcon icon={faArrowUp} className="text-white text-1xl" /></a>
+          <a href="#/"><FontAwesomeIcon icon={faArrowUp} className="text-white text-1xl" /></a>
           </div>
           </main>
        
