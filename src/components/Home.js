@@ -8,8 +8,6 @@ import Contact from '../resource/Contact';
 
 function Home() {
    
-
-  
    
   return (
     <div>
