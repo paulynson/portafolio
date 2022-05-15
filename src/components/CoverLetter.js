@@ -3,9 +3,9 @@ import React from 'react';
 function CoverLetter() {
   return (
     <div>
-      <main class="flex-1 lg:ml-80 xl:ml-80">
+      <main className="flex-1 lg:ml-80 xl:ml-80">
               <div className="flex ">
-              <div class="bg-white p-10 text-left leading-8 w-auto ">
+              <div className="bg-white p-10 text-left leading-8 w-auto ">
                       <p className='my-5'>Dear Hiring Manager,</p>
                       
           <p className='my-6 underline font-bold text-rose-600'>Application as a Frontend Developer - React JS</p>

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <section>
-      <nav class="flex-1 lg:ml-80 md:m-0 bg-slate-800  sm:m-0 xl:ml-80 ">
+      <nav className="flex-1 lg:ml-80 md:m-0 bg-slate-800  sm:m-0 xl:ml-80 ">
         <div className="flex gap-5 justify-center py-4">
           <NavLink
             to="/"

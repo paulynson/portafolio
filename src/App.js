@@ -7,6 +7,7 @@ import CoverLetter from './components/CoverLetter'
 import Sidebar from './layouts/Sidebar';
 import Footer from './layouts/Footer';
 import NotFound from './components/NotFound';
+import ToTop from './resource/ToTop';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="coverletter" element={<CoverLetter />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <ToTop />
       <Footer />
     </div>
   );

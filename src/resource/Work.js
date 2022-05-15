@@ -4,7 +4,7 @@ import data from '../data/data.json';
 function Work() {
     return (
       <div>
-          <section class="h-auto p-10">
+          <section className="h-auto p-10">
           <section className="text-left text-black">
             <h1 className="text-2xl text-rose-600 font-bold">WORK EXPERIENCE</h1>
             <div className="w-full h-[1px] rounded-lg mb-4 flex items-center bg-slate-400">

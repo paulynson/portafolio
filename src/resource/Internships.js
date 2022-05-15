@@ -5,7 +5,7 @@ function Internships() {
   return (
       <div>
             {/* Internships */}
-            <section class="h-auto  p-10">
+            <section className="h-auto  p-10">
           <section className="text-left text-black">
             <h1 className="text-2xl text-rose-600 font-bold">INTERNSHIP</h1>
             <div className="w-full h-[1px] rounded-lg mb-4 flex items-center bg-slate-400">
